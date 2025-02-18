@@ -51,7 +51,6 @@ jobs:
     - name: Intentional failure step
       run: |
         echo "This step will always fail"
-        java main.Class
         exit 1
 
     #################################################
